@@ -1,6 +1,8 @@
-a=int(input("Enter 1st : "))
-b=int(input("Enter 2nd number : "))
-a=a+b
-b=a-b
-a=a-b
-print("Swapped Numbers : ",a,b)
+def main():
+    initial = input("Enter numbers, seperated by space: ")
+    value_a = initial.split(" ")[0]
+    value_b = initial.split(" ")[1]
+    print(value_b, value_a)
+    
+if __name__ == "__main__":
+    main()
